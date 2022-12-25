@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="FizzBuzz" />
-        <module name="junitdemo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="FizzBuzz" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
